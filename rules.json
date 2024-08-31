@@ -1,0 +1,35 @@
+{
+    "rules": [
+      {
+        "id": 1,
+        "condition": {
+          "urlFilter": "*://*.zoom.us/*",
+          "resourceTypes": ["main_frame"]
+        },
+        "action": {
+          "type": "block"
+        }
+      },
+      {
+        "id": 2,
+        "condition": {
+          "urlFilter": "*://*.google.com/meet/*",
+          "resourceTypes": ["main_frame"]
+        },
+        "action": {
+          "type": "block"
+        }
+      },
+      {
+        "id": 3,
+        "condition": {
+          "urlFilter": "*://*.teams.microsoft.com/*",
+          "resourceTypes": ["main_frame"]
+        },
+        "action": {
+          "type": "block"
+        }
+      }
+    ]
+  }
+  

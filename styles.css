@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 300px;
+  }
+  
+  #container {
+    padding: 10px;
+  }
+  
+  #status {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
